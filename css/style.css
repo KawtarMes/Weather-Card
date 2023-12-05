@@ -2,7 +2,9 @@ body{
     font-family: 'Comfortaa', sans-serif;
     display: grid;
     justify-content: center;
+    background: linear-gradient(to right, rgb(97, 144, 232), rgb(167, 191, 232));
 }
+
 
 input{
     border: none;
