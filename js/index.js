@@ -36,7 +36,7 @@ cityInput.addEventListener('keydown', async function(event) {
 
 async function GetMeteo() {
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${key}&q=${cityInput.value}&aqi=no`);
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${key}&q=${cityInput.value}&aqi=no`);
         if (response.ok) {
             // Attend la response.json avant de faire la fx display. Sinon l'objet dans display je peux pas le deconstruir car donne un message d'erreur : il est undefiened 
             const meteoData = await response.json();
