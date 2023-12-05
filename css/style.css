@@ -1,0 +1,31 @@
+body{
+    font-family: 'Comfortaa', sans-serif;
+    display: grid;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    margin-bottom: 30px;
+}
+.card
+{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    display: grid;
+    align-items: stretch;
+    padding: 8px;
+    width: 200px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+}
+.card img{
+    display: flex;
+}
+
+
